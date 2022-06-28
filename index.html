@@ -1,0 +1,1977 @@
+<html>
+<head>
+  
+<style>
+
+body
+{
+    background-color:aquamarine ;
+}
+
+#news
+{
+    border-radius: 0%;
+}
+img
+{
+display: none;
+border-radius: 50%;
+margin:auto;
+width: 300px;
+height: 300px;
+}
+
+
+
+
+</style>
+
+    <title>Jeries</title>
+</head>
+
+<body onload = "myFunction:AutoRefresh(5000);">
+
+    <p id="showName" style="color: rgb(1,101,178);font-size:50px;text-align: center;margin-top: 0;margin-bottom: 0;" ></p>
+
+    <div id="bramj">
+
+        <!--- الاخبار-->
+        <img id="news" src="https://static.wixstatic.com/media/7eae9a_7eb64af1aff44283884d7aa13d226c65~mv2.png" height=200px width=300px>
+
+        <!--- ها انا ارسلكم-->
+        <img id="img_1" src="https://static.wixstatic.com/media/cbd749_0e11b92794904dbbb2b5ce0951c46ffd~mv2.jpg" width=50%>    
+        
+        <!--- شذرات انجيلية وكنسية-->
+        <img id="img_2" src="https://static.wixstatic.com/media/cbd749_0eb4e4c84fe5483588ff3db6ccd98af1~mv2.jpg" width=50%>    
+        
+        <!--- الشباب يشهد-->
+         <img id="img_3" src="https://static.wixstatic.com/media/cbd749_57f781aed990470e873b9435a356ae34~mv2.jpg" width=50%>    
+        
+         <!--- كلمة حياة-->
+         <img id="img_4" src="https://static.wixstatic.com/media/cbd749_aaa0a1f2bf7d4bdd9fd87a7cdff464b8~mv2.jpg" width=50%>    
+        
+         <!--- لقاءات صباحيّة-->
+         <img id="img_5" src="https://static.wixstatic.com/media/cbd749_c6b487eae2e7412b840ead79c182f608~mv2.jpg" width=50%>    
+        
+         <!--- الليتورجيا في حياتنا-->
+         <img id="img_6" src="https://static.wixstatic.com/media/cbd749_3873d2d733ce4801b84fbbfc44cebebc~mv2.jpg" width=50%>    
+        
+         <!--- مزمور النهار-->
+         <img id="img_7" src="https://static.wixstatic.com/media/cbd749_08ba13f3001e4147b32ec1577523e26e~mv2.jpg" width=50%>    
+        
+         <!--- نقطة حب من قلب الرب-->
+         <img id="img_8" src="https://static.wixstatic.com/media/cbd749_eb80df99017549088b9e4showName824fae040~mv2.jpg" width=50%>    
+        
+         <!--- الرجاء في زمن الوباء-->
+         <img id="img_9" src="https://static.wixstatic.com/media/cbd749_9544d6dae9d147a0aabd1ba9243825ee~mv2.jpg" width=50%>    
+        
+         <!--- التنشئة المسيحية-->
+         <img id="img_10" src="https://static.wixstatic.com/media/cbd749_380e72789f704e3d81c419e89635cf6a~mv2.jpg" width=50%>    
+        
+         <!--- مع الاعياد-->
+         <img id="img_11" src="https://static.wixstatic.com/media/cbd749_11db4bd4d64d417eac74cd593e086ed6~mv2.jpg" width=50%>    
+        
+         <!--- القداس الالهي-->
+         <img id="img_12" src="https://static.wixstatic.com/media/cbd749_02721fd829984af89f201b68d409b1cb~mv2.jpg" width=50%>    
+
+       <!---ترانيم -->
+       <img id="img_111" src="https://static.wixstatic.com/media/7eae9a_539b2260ff43426295004c8f43c3beab~mv2.png" width=50%>   
+    
+        <!---صلاة الصباح/ قبل النوم -->
+        <img id="img_222" src="https://static.wixstatic.com/media/7eae9a_629bee01939c4237b008e6a657aec04a~mv2.png" width=50%>   
+    
+         <!---الرحمة الالهية -->
+       <img id="img_333" src="https://static.wixstatic.com/media/7eae9a_be39b296ca95404992b23ee4875e6cdf~mv2.png" width=50%>   
+    
+        <!---كل يوم ايه -->
+        <img id="img_444" src="https://static.wixstatic.com/media/7eae9a_2aeba9b1355f4d77b8090c2ef8e722fd~mv2.png" width=50%>   
+    
+        </div> 
+
+
+<script>
+            function AutoRefresh( t ) {
+               setTimeout("location.reload(true);", t);
+
+
+    
+        var today = new Date();
+        var hour = today.getHours();
+        var minute= today.getMinutes();
+        var seconds= today.getSeconds();
+        var weekday = new Array(7);
+        weekday[0] = "Sunday";
+        weekday[1] = "Monday";
+        weekday[2] = "Tuesday";
+        weekday[3] = "Wednesday";
+        weekday[4] = "Thursday";
+        weekday[5] = "Friday";
+        weekday[6] = "Saturday";
+        var daynum=today.getDay(); //number 0-Sunday 6-Saturday
+        var day=weekday[daynum];  //string
+ 
+        //time convertor
+        minute*=0.01;
+
+        var time=hour+minute;
+        
+        var im0 =document.getElementById("news");
+        var im1 = document.getElementById("img_1");
+        var im2 = document.getElementById("img_2");
+        var im3 = document.getElementById("img_3");
+        var im4 = document.getElementById("img_4");
+        var im5 = document.getElementById("img_5");
+        var im6 = document.getElementById("img_6");
+        var im7 = document.getElementById("img_7");
+        var im8 = document.getElementById("img_8");
+        var im9 = document.getElementById("img_9");
+        var im10 = document.getElementById("img_10");
+        var im11 = document.getElementById("img_11");
+        var im12 = document.getElementById("img_12");
+        var im111= document.getElementById("img_111");
+        var im222= document.getElementById("img_222");
+        var im333= document.getElementById("img_333");
+        var im444= document.getElementById("img_444");
+       
+
+
+            if(daynum==0)//SUNDAY
+            {
+                if(time>0&&time<1)
+                {
+                    document.getElementById("showName").innerHTML = "المسبحة الورديه";
+                    im222.style.display='block';
+                }
+
+                if(time>=1&&time<1.45)
+                {
+                    document.getElementById("showName").innerHTML = "الشباب يشهد";
+                    im3.style.display='block';
+                }
+
+                if(time>=1.45&&time<2)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=2&&time<2.45)
+                {
+                    document.getElementById("showName").innerHTML = "الاب داود لمعي";
+                    im333.style.display='block';
+                }
+
+                if(time>=2.45&&time<3)
+                {
+                    document.getElementById("showName").innerHTML = "مزمور النهار";
+                    im7.style.display='block';
+                }
+
+                if(time>=3&&time<3.15)
+                {
+                    document.getElementById("showName").innerHTML = "مسبحة الرحمة الالهية"; 
+                    im333.style.display='block';
+                }
+
+                if(time>=3.15&&time<4)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=4&&time<4.30)
+                {
+                    document.getElementById("showName").innerHTML = "نشرة الاخبار";
+                    im0.style.display='block';
+                }
+
+                if(time>=4.30&&time<5)
+                {
+                    document.getElementById("showName").innerHTML = "شذرات انجيلية وكنسية";
+                    im2.style.display='block';
+                }
+
+                if(time>=5&&time<6)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=6&&time<6.15)
+                {
+                    document.getElementById("showName").innerHTML = "صلاة النهوض من النوم";
+                    im222.style.display='bolck';
+                }
+                    
+                if(time>=6.15&&time<6.30)
+                {
+                    document.getElementById("showName").innerHTML = "مزمور النهار";
+                    im7.style.display='block';
+                }
+
+                if(time>=6.30&&time<7)
+                {
+                    document.getElementById("showName").innerHTML = "نقطة حب من قلب الرب";
+                    im8.style.display='block';
+                }
+
+                if(time>=7&&time<8)
+                {
+                    document.getElementById("showName").innerHTML = "المسبحة الوردية";
+                    im222.style.display='block';
+                }
+
+                if(time>=8&&time<8.30)
+                {
+                    document.getElementById("showName").innerHTML = "نشرة الاخبار";
+                    im0.style.display='block';
+                }
+
+                if(time>=8.30&&time<9)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=9&&time<9.15)
+                {
+                    document.getElementById("showName").innerHTML = "الليتروجيه في";
+                    im6.style.display='block';
+                }
+                    
+                if(time>=9.15&&time<11)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=11&&time<11.45)
+                {
+                    document.getElementById("showName").innerHTML = "الاب داود لمعي";
+                    im333.style.display='block';
+                }
+
+                if(time>=11.45&&time<12)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=12&&time<13)
+                {
+                    document.getElementById("showName").innerHTML = "المسبحة الورديه";
+                    im222.style.display='block';
+                }
+
+                if(time>=13&&time<13.15)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=13.15&&time<14.45)
+                {
+                    document.getElementById("showName").innerHTML = "ضع يدك على المحراث";
+                    im3.style.display='block';
+                }
+
+                if(time>=14.45&&time<15)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+                
+                if(time>=15&&time<15.15)
+                {
+                    document.getElementById("showName").innerHTML = "مسبحة الرحمة الالهية"; 
+                    im333.style.display='block';    
+                }    
+
+                if(time>=15.15&&time<16)
+                {
+                    document.getElementById("showName").innerHTML = "الشباب يشهد";
+                    im3.style.display='block';
+                }
+
+                if(time>=16&&time<16.30)
+                {
+                    document.getElementById("showName").innerHTML = "شذرات انجيلية وكنسية";
+                    im2.style.display='block';
+                }
+
+                if(time>=16.30&&time<17.45)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=17.45&&time<18)
+                {
+                    document.getElementById("showName").innerHTML = "مزمور النهار";
+                    im7.style.display='block';
+                }              
+
+                if(time>=18&&time<19)
+                {
+                    document.getElementById("showName").innerHTML = "المسبحة الورديه";
+                    im222.style.display='block';
+                }
+
+                if(time>=19&&time<19.15)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=19.15&&time<19.30)
+                {
+                    document.getElementById("showName").innerHTML = "الليتروجيا في حياتنا";
+                    im6.style.display='block';
+                }
+
+                if(time>=19.30&&time<20)
+                {
+                    document.getElementById("showName").innerHTML = "يسوع لو يعود ";
+                    im11.style.display='block';
+                }
+
+                if(time>=20&&time<20.30)
+                {
+                    document.getElementById("showName").innerHTML = "نشرة الاخبار";
+                    im0.style.display='block';
+                }          
+
+                if(time>=20.30&&time<21)
+                {
+                    document.getElementById("showName").innerHTML = "صلاة قبل النوم";
+                    im222.style.display='block';
+                }
+
+                if(time>=21&&time<21.45)
+                {
+                    document.getElementById("showName").innerHTML = " الاب داود لمعي";
+                    im222.style.display='block';
+                }
+
+                if(time>=21.45&&time<22.30)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=22.30&&time<23)
+                {
+                    document.getElementById("showName").innerHTML = "شذرات انجيلية وكنسية";
+                    im2.style.display='block';
+                }
+
+                if(time>=23&&time<23.45)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=23.45&&time<24)
+                {
+                    document.getElementById("showName").innerHTML = "صلاة ختام النهر";
+                    im222.style.display='block';
+                }
+            }   
+
+
+
+
+
+
+
+
+            if(daynum==1)//MONDAY
+            {
+                if(time>0&&time<1)
+                {
+                    document.getElementById("showName").innerHTML = "المسبحة الورديه";
+                    im222.style.display='block';
+                    }
+
+                if(time>=15&&time<1.30)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=1.30&&time<2)
+                {
+                    document.getElementById("showName").innerHTML = "يسوع لو يعود";
+                    im11.style.display='block';
+                }
+
+                if(time>=2&&time<2.45)
+                {
+                    document.getElementById("showName").innerHTML = "الاب داود لمعي";
+                    im222.style.display='block';
+                }
+
+                if(time>=2.15&&time<2.45)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=2.45&&time<3)
+                {
+                    document.getElementById("showName").innerHTML = "مزمور النهار";
+                    im7.style.display='block';
+                }
+
+                if(time>=3&&time<3.15)
+                {
+                    document.getElementById("showName").innerHTML = "مسبحة الرحمة الالهية"; 
+                    im333.style.display='block';
+                }
+
+                if(time>=3.15&&time<4)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=4&&time<4.30)
+                {
+                    document.getElementById("showName").innerHTML = "نشرة الاخبار";
+                    im0.style.display='block';
+                }
+
+                if(time>=4.30&&time<5)
+                {
+                    document.getElementById("showName").innerHTML = "شذرات انجيلية وكنسية";
+                    im2.style.display='block';
+                }
+
+                if(time>=5&&time<5.15)
+                {
+                    document.getElementById("showName").innerHTML = "اليتروجيا في حياتنا";
+                    im6.style.display='block';
+                }
+
+                if(time>=5.15&&time<6)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=6&&time<6.15)
+                {
+                    document.getElementById("showName").innerHTML = "صلاة النهوض من النوم";
+                    im222.style.display='bolck';
+                }
+                    
+                if(time>=6.15&&time<6.30)
+                {
+                    document.getElementById("showName").innerHTML = "مزمور النهار";
+                    im7.style.display='block';
+                }
+
+                if(time>=6.30&&time<7)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=7&&time<8)
+                {
+                    document.getElementById("showName").innerHTML = "المسبحة الوردية";
+                    im222.style.display='block';
+                }
+
+                if(time>=8&&time<8.30)
+                {
+                    document.getElementById("showName").innerHTML = "نشرة الاخبار";
+                    im0.style.display='block';
+                }
+
+                if(time>=8.30&&time<8.45)
+                {
+                    document.getElementById("showName").innerHTML = "كل يوم ايه";
+                    im444.style.display='block';
+                }
+
+                if(time>=8.45&&time<10)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=10&&time<10.30)
+                {
+                    document.getElementById("showName").innerHTML = "التنشئة المسيحية";
+                    im10.style.display='block';
+                }
+
+                if(time>=10.30&&time<11)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=11&&time<11.30)
+                {
+                    document.getElementById("showName").innerHTML = "كلمة حياة";
+                    im4.style.display='block';
+                }
+
+                if(time>=11.30&&time<12)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=12&&time<13)
+                {
+                    document.getElementById("showName").innerHTML = "المسبحة الورديه";
+                    im111.style.display='block';
+                }
+
+                if(time>=13&&time<13.15)
+                {
+                    document.getElementById("showName").innerHTML = "كل يوم ايه";
+                    im444.style.display='block';
+                }
+
+                if(time>=13.15&&time<15)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+                
+                if(time>=15&&time<15.15)
+                {
+                    document.getElementById("showName").innerHTML = "مسبحة الرحمة الالهية"; 
+                    im333.style.display='block';
+                }
+
+                if(time>=15.15&&time<16)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=16&&time<16.30)
+                {
+                    document.getElementById("showName").innerHTML = "شذرات انجيلية وكنسية";
+                    im2.style.display='block';
+                }
+
+                if(time>=16.30&&time<16.45)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=16.45&&time<17)
+                {
+                    document.getElementById("showName").innerHTML = "كل يوم ايه";
+                    im444.style.display='block';
+                }
+
+                if(time>=17&&time<17.45)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=17.45&&time<18)
+                {
+                    document.getElementById("showName").innerHTML = "مزمور النهار";
+                    im7.style.display='block';
+                }
+
+                if(time>=18&&time<19)
+                {
+                    document.getElementById("showName").innerHTML = "المسبحة الورديه";
+                    im222.style.display='block';
+                }
+
+                if(time>=19&&time<19.15)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=19.15&&time<19.45)
+                {
+                    document.getElementById("showName").innerHTML = "التنشئة المسيحية";
+                    im10.style.display='block';
+                }
+
+                if(time>=19.45&&time<20)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=20&&time<20.30)
+                {
+                    document.getElementById("showName").innerHTML = "نشرة الاخبار";
+                    im0.style.display='block';
+                }
+
+                if(time>=20.30&&time<21)
+                {
+                    document.getElementById("showName").innerHTML = "صلاة قبل النوم";
+                    im222.style.display='block';
+                }
+
+                if(time>=21&&time<21.30)
+                {
+                    document.getElementById("showName").innerHTML = "كلمة حياة";
+                    im4.style.display='block';
+                }
+
+                if(time>=21.30&&time<21.45)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=21.45&&time<22.30)
+                {
+                    document.getElementById("showName").innerHTML = "ها انا ارسلكم";
+                    im1.style.display='block';
+                }
+
+                if(time>=22.30&&time<23)
+                {
+                    document.getElementById("showName").innerHTML = "شذرات انجيلية وكنسية";
+                    im2.style.display='block';
+                }
+
+                if(time>=23&&time<23.45)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=23.45&&time<24)
+                {
+                    document.getElementById("showName").innerHTML = "صلاة ختام النهر";
+                    im222.style.display='block';
+                }
+            }
+
+
+
+
+
+
+
+
+
+
+            if(daynum==2)//TUESDAY
+            {
+                if(time>0&&time<0.45)
+                {
+                    document.getElementById("showName").innerHTML = "المسبحة الورديه";
+                    im222.style.display='block';
+                }
+
+                    if(time>=0.45&&time<1.30)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=1.30&&time<2)
+                {
+                    document.getElementById("showName").innerHTML = "التنشئة المسيحيه";
+                    im10.style.display='block';
+                }
+
+                if(time>=2&&time<2.15)
+                {
+                    document.getElementById("showName").innerHTML = "كلمة حياة";
+                    im4.style.display='block';
+                }
+
+                if(time>=2.15&&time<2.45)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=2.45&&time<3)
+                {
+                    document.getElementById("showName").innerHTML = "مزمور النهار";
+                    im7.style.display='block';
+                }
+
+                if(time>=3&&time<3.15)
+                {
+                    document.getElementById("showName").innerHTML = "مسبحة الرحمة الالهية"; 
+                    im333.style.display='block';
+                }
+
+                if(time>=3.15&&time<4)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=4&&time<4.30)
+                {
+                    document.getElementById("showName").innerHTML = "نشرة الاخبار";
+                    im0.style.display='block';
+                }
+
+                if(time>=4.30&&time<5)
+                    {
+                        document.getElementById("showName").innerHTML = "شذرات انجيلية وكنسية";
+                        im2.style.display='block';
+                    }
+
+                    if(time>=5&&time<5.45)
+                {
+                    document.getElementById("showName").innerHTML = "ها انا ارسلكم";
+                    im11.style.display='block';
+                }
+
+                if(time>=5.45&&time<6)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=6&&time<6.15)
+                {
+                    document.getElementById("showName").innerHTML = "صلاة النهوض من النوم";
+                    im222.style.display='bolck';
+                }
+                    
+                if(time>=6.15&&time<6.30)
+                {
+                    document.getElementById("showName").innerHTML = "مزمور النهار";
+                    im7.style.display='block';
+                }
+
+                if(time>=6.30&&time<7)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=7&&time<8)
+                {
+                    document.getElementById("showName").innerHTML = "المسبحة الوردية";
+                    im222.style.display='block';
+                }
+
+                if(time>=8&&time<8.30)
+                {
+                    document.getElementById("showName").innerHTML = "نشرة الاخبار";
+                    im0.style.display='block';
+                }
+
+                if(time>=8.30&&time<8.45)
+                {
+                    document.getElementById("showName").innerHTML = "كل يوم ايه";
+                    im444.style.display='block';
+                }
+
+                if(time>=8.45&&time<10.45)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+                    
+                if(time>=10.45&&time<11.30)
+                {
+                    document.getElementById("showName").innerHTML = "القداس الالهي";
+                    im12.style.display='block';
+                }
+
+                if(time>=11.30&&time<12)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=12&&time<13)
+                {
+                    document.getElementById("showName").innerHTML = "المسبحة الورديه";
+                    im111.style.display='block';
+                }
+
+                if(time>=13&&time<13.15)
+                {
+                    document.getElementById("showName").innerHTML = "كل يوم ايه";
+                    im444.style.display='block';
+                }
+
+                if(time>=13.15&&time<13.30)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=13.30&&time<14.15)
+                {
+                    document.getElementById("showName").innerHTML = "الشباب يشهد";
+                    im3.style.display='block';
+                }
+
+                if(time>=14.15&&time<15)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+                
+                if(time>=15&&time<15.15)
+                {
+                    document.getElementById("showName").innerHTML = "مسبحة الرحمة الالهية"; 
+                    im333.style.display='block';
+                }
+
+                if(time>=15.15&&time<16)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=16&&time<16.30)
+                {
+                    document.getElementById("showName").innerHTML = "شذرات انجيلية وكنسية";
+                    im2.style.display='block';
+                }
+
+                if(time>=16.30&&time<16.45)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=16.45&&time<17)
+                {
+                    document.getElementById("showName").innerHTML = "كل يوم ايه";
+                    im444.style.display='block';
+                }
+
+                if(time>=17&&time<17.45)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=17.45&&time<18)
+                {
+                    document.getElementById("showName").innerHTML = "مزمور النهار";
+                    im7.style.display='block';
+                }
+
+                if(time>=18&&time<19)
+                {
+                    document.getElementById("showName").innerHTML = "المسبحة الورديه";
+                    im222.style.display='block';
+                }
+
+                if(time>=19&&time<19.15)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=19.15&&time<20)
+                {
+                    document.getElementById("showName").innerHTML = "الشباب يشهد";
+                    im3.style.display='block';
+                }
+
+                if(time>=20&&time<20.30)
+                {
+                    document.getElementById("showName").innerHTML = "نشرة الاخبار";
+                    im0.style.display='block';
+                }
+
+                if(time>=20.30&&time<21)
+                {
+                    document.getElementById("showName").innerHTML = "صلاة قبل النوم";
+                    im222.style.display='block';
+                }
+
+                if(time>=21&&time<21.45)
+                {
+                    document.getElementById("showName").innerHTML = "القداس الالهي";
+                    im12.style.display='block';
+                }
+
+                if(time>=21.45&&time<22.30)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=22.30&&time<23)
+                {
+                    document.getElementById("showName").innerHTML = "شذرات انجيلية وكنسية";
+                    im2.style.display='block';
+                }
+
+                if(time>=23&&time<23.45)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=23.45&&time<24)
+                {
+                    document.getElementById("showName").innerHTML = "صلاة ختام النهر";
+                    im222.style.display='block';
+                }
+            }
+
+
+
+
+
+
+
+
+
+            if(daynum==3)//WEDNESDAY
+            {
+                if(time>0&&time<1)
+                {
+                    document.getElementById("showName").innerHTML = "المسبحة الورديه";
+                    im222.style.display='block';
+                }
+
+                if(time>=1&&time<2)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=2&&time<2.45)
+                {
+                    document.getElementById("showName").innerHTML = "القداس الالهي";
+                    im12.style.display='block';
+                }
+
+                if(time>=2.45&&time<3)
+                {
+                    document.getElementById("showName").innerHTML = "مزمور النهار";
+                    im7.style.display='block';
+                }
+
+                if(time>=3&&time<3.15)
+                {
+                    document.getElementById("showName").innerHTML = "مسبحة الرحمة الالهية"; 
+                    im333.style.display='block';
+                }
+
+                if(time>=3.15&&time<4)
+                {
+                    document.getElementById("showName").innerHTML = "الشباب يشهد";
+                    im3.style.display='block';
+                }
+
+                if(time>=4&&time<4.30)
+                {
+                    document.getElementById("showName").innerHTML = "نشرة الاخبار";
+                    im0.style.display='block';
+                }
+
+                if(time>=4.30&&time<5)
+                {
+                    document.getElementById("showName").innerHTML = "شذرات انجيلية وكنسية";
+                    im2.style.display='block';
+                }
+
+                if(time>=5&&time<6)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=6&&time<6.15)
+                {
+                    document.getElementById("showName").innerHTML = "صلاة النهوض من النوم";
+                    im222.style.display='bolck';
+                }
+                    
+                if(time>=6.15&&time<6.30)
+                {
+                    document.getElementById("showName").innerHTML = "مزمور النهار";
+                    im7.style.display='block';
+                }
+
+                if(time>=6.30&&time<7)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=7&&time<8)
+                {
+                    document.getElementById("showName").innerHTML = "المسبحة الوردية";
+                    im222.style.display='block';
+                }
+
+                if(time>=8&&time<8.30)
+                {
+                    document.getElementById("showName").innerHTML = "نشرة الاخبار";
+                    im0.style.display='block';
+                }
+
+                if(time>=8.30&&time<8.45)
+                {
+                    document.getElementById("showName").innerHTML = "كل يوم ايه";
+                    im444.style.display='block';
+                }
+
+                if(time>=8.45&&time<9.45)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=9.45&&time<10.30)
+                {
+                    document.getElementById("showName").innerHTML = "ها انا ارسلكم";
+                    im1.style.display='block';
+                }
+
+                if(time>=10.30&&time<11)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=11&&time<11.30)
+                {
+                    document.getElementById("showName").innerHTML = "كلمة حياة";
+                    im4.style.display='block';
+                }
+
+                if(time>=11.30&&time<12)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=12&&time<13)
+                {
+                    document.getElementById("showName").innerHTML = "المسبحة الورديه";
+                    im111.style.display='block';
+                }
+
+                if(time>=13&&time<13.15)
+                {
+                    document.getElementById("showName").innerHTML = "كل يوم ايه";
+                    im444.style.display='block';
+                }
+
+                if(time>=13.15&&time<14.45)
+                {
+                    document.getElementById("showName").innerHTML = "ضع يدك على المحراث";
+                    im222.style.display='block';
+                }
+
+                if(time>=14.45&&time<15)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=15&&time<15.15)
+                {
+                    document.getElementById("showName").innerHTML = "مسبحة الرحمة الالهية"; 
+                    im333.style.display='block';
+                }
+
+                if(time>=15.15&&time<16)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=16&&time<16.30)
+                {
+                    document.getElementById("showName").innerHTML = "شذرات انجيلية وكنسية";
+                        im2.style.display='block';
+                }
+
+                if(time>=16.30&&time<16.45)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=16.45&&time<17)
+                {
+                    document.getElementById("showName").innerHTML = "كل يوم ايه";
+                    im444.style.display='block';
+                }
+
+                if(time>=17&&time<17.45)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=17.45&&time<18)
+                {
+                    document.getElementById("showName").innerHTML = "مزمور النهار";
+                    im7.style.display='block';
+                }
+
+                if(time>=18&&time<19)
+                {
+                    document.getElementById("showName").innerHTML = "المسبحة الورديه";
+                    im222.style.display='block';
+                }
+
+                if(time>=19&&time<19.30)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=19.30&&time<20)
+                {
+                    document.getElementById("showName").innerHTML = "يسوع لو يعود";
+                    im11.style.display='block';
+                }
+
+                if(time>=20&&time<20.30)
+                {
+                    document.getElementById("showName").innerHTML = "نشرة الاخبار";
+                    im0.style.display='block';
+                }
+
+                if(time>=20.30&&time<21)
+                {
+                    document.getElementById("showName").innerHTML = "صلاة قبل النوم";
+                    im222.style.display='block';
+                }
+
+                if(time>=21&&time<21.30)
+                {
+                    document.getElementById("showName").innerHTML = "كلمة حياة";
+                    im4.style.display='block';
+                }
+
+                if(time>=21.30&&time<22.30)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=22.30&&time<23)
+                {
+                    document.getElementById("showName").innerHTML = "شذرات انجيلية وكنسية";
+                    im2.style.display='block';
+                }
+
+                if(time>=23&&time<23.45)
+                {
+                    document.getElementById("showName").innerHTML = "ها انا ارسلكم";
+                    im1.style.display='block';
+                }
+
+                if(time>=23.45&&time<24)
+                {
+                    document.getElementById("showName").innerHTML = "صلاة ختام النهر";
+                    im222.style.display='block';
+                }
+            }
+
+
+
+
+
+
+
+
+
+
+
+            if(daynum==4)//THURSDAY
+            {
+                if(time>0&&time<0.45)
+                {
+                    document.getElementById("showName").innerHTML = "المسبحة الورديه";
+                    im222.style.display='block';
+                }
+
+                if(time>=0.45&&time<1.30)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=1.30&&time<2)
+                {
+                    document.getElementById("showName").innerHTML = "يسوع لو يعود";
+                    im11.style.display='block';
+                }
+
+                if(time>=2&&time<2.15)
+                {
+                    document.getElementById("showName").innerHTML = "كلمة حياة";
+                    im4.style.display='block';
+                }
+
+                if(time>=2.15&&time<2.45)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=2.45&&time<3)
+                {
+                    document.getElementById("showName").innerHTML = "مزمور النهار";
+                    im7.style.display='block';
+                }
+
+                if(time>=3&&time<3.15)
+                {
+                    document.getElementById("showName").innerHTML = "مسبحة الرحمة الالهية"; 
+                    im333.style.display='block';
+                }
+
+                if(time>=3.15&&time<4)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=4&&time<4.30)
+                {
+                    document.getElementById("showName").innerHTML = "نشرة الاخبار";
+                    im0.style.display='block';
+                }
+
+                if(time>=4.30&&time<5)
+                {
+                    document.getElementById("showName").innerHTML = "شذرات انجيلية وكنسية";
+                    im2.style.display='block';
+                }
+
+                if(time>=5&&time<6)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=6&&time<6.15)
+                {
+                    document.getElementById("showName").innerHTML = "صلاة النهوض من النوم";
+                    im222.style.display='bolck';
+                }
+                    
+                if(time>=6.15&&time<6.30)
+                {
+                    document.getElementById("showName").innerHTML = "مزمور النهار";
+                    im7.style.display='block';
+                }
+
+                if(time>=6.30&&time<7)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=7&&time<8)
+                {
+                    document.getElementById("showName").innerHTML = "المسبحة الوردية";
+                    im222.style.display='block';
+                }
+
+                if(time>=8&&time<8.30)
+                {
+                    document.getElementById("showName").innerHTML = "نشرة الاخبار";
+                    im0.style.display='block';
+                }
+
+                if(time>=8.30&&time<8.45)
+                {
+                    document.getElementById("showName").innerHTML = "كل يوم ايه";
+                    im444.style.display='block';
+                }
+
+                if(time>=8.45&&time<11)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+                    
+                if(time>=11&&time<11.30)
+                {
+                    document.getElementById("showName").innerHTML = "كلمة حياة";
+                    im4.style.display='block';
+                }
+
+                if(time>=11.30&&time<12)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=12&&time<13)
+                {
+                    document.getElementById("showName").innerHTML = "المسبحة الورديه";
+                    im111.style.display='block';
+                }
+
+                if(time>=13&&time<13.15)
+                {
+                    document.getElementById("showName").innerHTML = "كل يوم ايه";
+                    im444.style.display='block';
+                }
+
+                if(time>=13.15&&time<14.15)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=14.15&&time<15)
+                {
+                    document.getElementById("showName").innerHTML = "ها انا ارسلكم";
+                    im1.style.display='block';
+                }
+                
+                if(time>=15&&time<15.15)
+                {
+                    document.getElementById("showName").innerHTML = "مسبحة الرحمة الالهية"; 
+                    im333.style.display='block';
+                }
+
+                if(time>=15.15&&time<16)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=16&&time<16.30)
+                {
+                    document.getElementById("showName").innerHTML = "شذرات انجيلية وكنسية";
+                    im2.style.display='block';
+                }
+
+                if(time>=16.30&&time<16.45)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=16.45&&time<17)
+                {
+                    document.getElementById("showName").innerHTML = "كل يوم ايه";
+                    im444.style.display='block';
+                }
+
+                if(time>=17&&time<17.45)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=17.45&&time<18)
+                {
+                    document.getElementById("showName").innerHTML = "مزمور النهار";
+                    im7.style.display='block';
+                }
+
+                if(time>=18&&time<19)
+                {
+                    document.getElementById("showName").innerHTML = "المسبحة الورديه";
+                    im222.style.display='block';
+                }
+
+                if(time>=19&&time<19.15)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=19.15&&time<19.45)
+                {
+                    document.getElementById("showName").innerHTML = "التنشئة المسيحية";
+                    im10.style.display='block';
+                }
+
+                if(time>=19.45&&time<20)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=20&&time<20.30)
+                {
+                    document.getElementById("showName").innerHTML = "نشرة الاخبار";
+                    im0.style.display='block';
+                }
+
+                if(time>=20.30&&time<21)
+                {
+                    document.getElementById("showName").innerHTML = "صلاة قبل النوم";
+                    im222.style.display='block';
+                }
+
+                if(time>=21&&time<21.30)
+                {
+                    document.getElementById("showName").innerHTML = "كلمة حياة";
+                    im4.style.display='block';
+                }
+
+                if(time>=21.30&&time<22.30)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=22.30&&time<23)
+                {
+                    document.getElementById("showName").innerHTML = "شذرات انجيلية وكنسية";
+                    im2.style.display='block';
+                }
+
+                if(time>=23&&time<23.45)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=23.45&&time<24)
+                {
+                    document.getElementById("showName").innerHTML = "صلاة ختام النهر";
+                    im222.style.display='block';
+                }
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            if(daynum==5)//FRIDAY
+            {
+                if(time>0&&time<1)
+                {
+                    document.getElementById("showName").innerHTML = "المسبحة الورديه";
+                    im222.style.display='block';
+                }
+
+                if(time>=1&&time<2)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=2&&time<2.15)
+                {
+                    document.getElementById("showName").innerHTML = "كلمة حياة";
+                    im4.style.display='block';
+                }
+
+                if(time>=2.15&&time<2.45)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=2.45&&time<3)
+                {
+                    document.getElementById("showName").innerHTML = "مزمور النهار";
+                    im7.style.display='block';
+                }
+
+                if(time>=3&&time<3.15)
+                {
+                    document.getElementById("showName").innerHTML = "مسبحة الرحمة الالهية"; 
+                    im333.style.display='block';
+                }
+
+                if(time>=3.15&&time<4)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=4&&time<4.30)
+                {
+                    document.getElementById("showName").innerHTML = "نشرة الاخبار";
+                    im0.style.display='block';
+                }
+
+                if(time>=4.30&&time<5)
+                    {
+                        document.getElementById("showName").innerHTML = "شذرات انجيلية وكنسية";
+                        im2.style.display='block';
+                    }
+
+                    if(time>=5&&time<5.30)
+                {
+                    document.getElementById("showName").innerHTML = "ها انا ارسلكم";
+                    im1.style.display='block';
+                }
+
+                if(time>=5.30&&time<6)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=6&&time<6.15)
+                {
+                    document.getElementById("showName").innerHTML = "صلاة النهوض من النوم";
+                    im222.style.display='bolck';
+                }
+                    
+                if(time>=6.15&&time<6.30)
+                {
+                    document.getElementById("showName").innerHTML = "مزمور النهار";
+                    im7.style.display='block';
+                }
+
+                if(time>=6.30&&time<7)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=7&&time<8)
+                {
+                    document.getElementById("showName").innerHTML = "المسبحة الوردية";
+                    im222.style.display='block';
+                }
+
+                if(time>=8&&time<8.30)
+                {
+                    document.getElementById("showName").innerHTML = "نشرة الاخبار";
+                    im0.style.display='block';
+                }
+
+                if(time>=8.30&&time<8.45)
+                {
+                    document.getElementById("showName").innerHTML = "كل يوم ايه";
+                    im444.style.display='block';
+                }
+
+                if(time>=8.45&&time<10)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=10&&time<10.30)
+                {
+                    document.getElementById("showName").innerHTML = "يسوع لو يعود";
+                    im11.style.display='block';
+                }
+                    
+                if(time>=10.30&&time<10.45)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=10.45&&time<11.30)
+                {
+                    document.getElementById("showName").innerHTML = "القداس الالهي";
+                    im12.style.display='block';
+                }
+
+                if(time>=11.30&&time<12)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=12&&time<13)
+                {
+                    document.getElementById("showName").innerHTML = "المسبحة الورديه";
+                    im111.style.display='block';
+                }
+
+                if(time>=13&&time<13.15)
+                {
+                    document.getElementById("showName").innerHTML = "كل يوم ايه";
+                    im444.style.display='block';
+                }
+
+                if(time>=13.15&&time<13.30)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=13.30&&time<14.15)
+                {
+                    document.getElementById("showName").innerHTML = "الشباب يشهد";
+                    im3.style.display='block';
+                }
+                
+                if(time>=14.15&&time<15)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=15&&time<15.15)
+                {
+                    document.getElementById("showName").innerHTML = "مسبحة الرحمة الالهية";
+                    im333.style.display='block';
+                }
+
+                if(time>=15.15&&time<16)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=16&&time<16.30)
+                {
+                    document.getElementById("showName").innerHTML = "شذرات انجيلية وكنسية";
+                    im2.style.display='block';
+                }
+
+                if(time>=16.30&&time<16.45)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=16.45&&time<17)
+                {
+                    document.getElementById("showName").innerHTML = "كل يوم ايه";
+                    im444.style.display='block';
+                }
+
+                if(time>=17&&time<17.45)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=17.45&&time<18)
+                {
+                    document.getElementById("showName").innerHTML = "مزمور النهار";
+                    im7.style.display='block';
+                }
+
+                if(time>=18&&time<19)
+                {
+                    document.getElementById("showName").innerHTML = "المسبحة الورديه";
+                    im222.style.display='block';
+                }
+
+                if(time>=19&&time<19.30)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=19.30&&time<20)
+                {
+                    document.getElementById("showName").innerHTML = "يسوع لو يعود";
+                    im11.style.display='block';
+                }
+
+                if(time>=20&&time<20.30)
+                {
+                    document.getElementById("showName").innerHTML = "نشرة الاخبار";
+                    im0.style.display='block';
+                }
+
+                if(time>=20.30&&time<21)
+                {
+                    document.getElementById("showName").innerHTML = "صلاة قبل النوم";
+                    im222.style.display='block';
+                }
+
+                if(time>=21&&time<21.45)
+                {
+                    document.getElementById("showName").innerHTML = "القداس الالهي";
+                    im12.style.display='block';
+                }
+
+                if(time>=21.45&&time<22.30)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=22.30&&time<23)
+                {
+                    document.getElementById("showName").innerHTML = "شذرات انجيلية وكنسية";
+                    im2.style.display='block';
+                }
+
+                if(time>=23&&time<23.45)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=23.45&&time<24)
+                {
+                    document.getElementById("showName").innerHTML = "صلاة ختام النهر";
+                    im222.style.display='block';
+                }
+            }
+
+
+
+
+
+
+
+
+
+
+
+    
+            if(daynum==6)//SATURDAY
+            {
+                if(time>0&&time<1)
+                {
+                    document.getElementById("showName").innerHTML = "المسبحة الورديه";
+                    im222.style.display='block';
+                }
+
+                if(time>=1&&time<1.30)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=1.30&&time<2)
+                {
+                    document.getElementById("showName").innerHTML = "يسوع لو يعود";
+                    im11.style.display='block';
+                }
+
+                if(time>=2&&time<2.45)
+                {
+                    document.getElementById("showName").innerHTML = "القداس الالهي";
+                    im12.style.display='block';
+                }
+
+                if(time>=2.45&&time<3)
+                {
+                    document.getElementById("showName").innerHTML = "مزمور النهار";
+                    im7.style.display='block';
+                }
+
+                if(time>=3&&time<3.15)
+                {
+                    document.getElementById("showName").innerHTML = "مسبحة الرحمة الالهية"; 
+                    im333.style.display='block';
+                }
+
+                if(time>=3.15&&time<4)
+                {
+                    document.getElementById("showName").innerHTML = "الشباب يشهد";
+                    im3.style.display='block';
+                }
+
+                if(time>=4&&time<4.30)
+                {
+                    document.getElementById("showName").innerHTML = "نشرة الاخبار";
+                    im0.style.display='block';
+                }
+
+                if(time>=4.30&&time<5)
+                {
+                    document.getElementById("showName").innerHTML = "شذرات انجيلية وكنسية";
+                    im2.style.display='block';
+                }
+
+                if(time>=5&&time<6)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=6&&time<6.15)
+                {
+                    document.getElementById("showName").innerHTML = "صلاة النهوض من النوم";
+                    im222.style.display='bolck';
+                }
+                    
+                if(time>=6.15&&time<6.30)
+                {
+                    document.getElementById("showName").innerHTML = "مزمور النهار";
+                    im7.style.display='block';
+                }
+
+                if(time>=6.30&&time<7)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=7&&time<8)
+                {
+                    document.getElementById("showName").innerHTML = "المسبحة الوردية";
+                    im222.style.display='block';
+                }
+
+                if(time>=8&&time<8.30)
+                {
+                    document.getElementById("showName").innerHTML = "نشرة الاخبار";
+                    im0.style.display='block';
+                }
+
+                if(time>=8.30&&time<9)
+                {
+                    document.getElementById("showName").innerHTML = "نقطة حب من قلب الرب";
+                    im8.style.display='block';
+                }
+
+                if(time>=9&&time<11)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+                
+                if(time>=11&&time<11.45)
+                {
+                    document.getElementById("showName").innerHTML = "الاب داود لمعي";
+                    im222.style.display='block';
+                }
+
+                if(time>=11.45&&time<12)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=12&&time<13)
+                {
+                    document.getElementById("showName").innerHTML = "المسبحة الورديه";
+                    im111.style.display='block';
+                }
+
+                if(time>=13&&time<15)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=15&&time<15.15)
+                {
+                    document.getElementById("showName").innerHTML = "مسبحة الرحمة الالهية"; 
+                    im333.style.display='block';    
+                }    
+
+                if(time>=15.15&&time<16)
+                {
+                    document.getElementById("showName").innerHTML = "الشباب يشهد";
+                    im3.style.display='block';
+                }
+
+                if(time>=16&&time<16.30)
+                {
+                    document.getElementById("showName").innerHTML = "شذرات انجيلية وكنسية";
+                    im2.style.display='block';
+                }
+
+                if(time>=16.30&&time<17.45)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=17.45&&time<18)
+                {
+                    document.getElementById("showName").innerHTML = "مزمور النهار";
+                    im7.style.display='block';
+                }  
+
+                if(time>=18&&time<19)
+                {
+                    document.getElementById("showName").innerHTML = "المسبحة الورديه";
+                    im222.style.display='block';
+                }    
+                
+                if(time>=19&&time<19.15)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=19.15&&time<19.45)
+                {
+                    document.getElementById("showName").innerHTML = "نقطة حب من قلب الرب";
+                    im8.style.display='block';
+                }
+
+                if(time>=19.45&&time<20)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=20&&time<20.30)
+                {
+                    document.getElementById("showName").innerHTML = "نشرة الاخبار";
+                    im0.style.display='block';
+                }          
+
+                if(time>=20.30&&time<21)
+                {
+                    document.getElementById("showName").innerHTML = "صلاة قبل النوم";
+                    im222.style.display='block';
+                }
+
+                if(time>=21&&time<21.45)
+                {
+                    document.getElementById("showName").innerHTML = " الاب داود لمعي";
+                    im222.style.display='block';
+                }
+
+                if(time>=21.45&&time<22.30)
+                {
+                    document.getElementById("showName").innerHTML = "ها انا ارسلكم";
+                    im1.style.display='block';
+                }
+
+                if(time>=22.30&&time<23)
+                {
+                    document.getElementById("showName").innerHTML = "شذرات انجيلية وكنسية";
+                    im2.style.display='block';
+                }
+
+                if(time>=23&&time<23.45)
+                {
+                    document.getElementById("showName").innerHTML = "ترانيم";
+                    im111.style.display='block';
+                }
+
+                if(time>=23.45&&time<24)
+                {
+                    document.getElementById("showName").innerHTML = "صلاة ختام النهر";
+                    im222.style.display='block';
+                }
+            }
+           
+        }
+            
+</script>
+
+</body>
+</html>
