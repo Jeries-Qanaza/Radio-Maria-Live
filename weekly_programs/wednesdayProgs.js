@@ -120,11 +120,11 @@ const wednesday = (time) =>
     {
         obj=  AllPrograms.find(x => x.progName == "القداس الالهي")
     }
-    else if(time>17&&time<15.30)
+    else if(time>17&&time<17.30)
     {
         obj=  AllPrograms.find(x => x.progName == "حلقات حلقات اختيارية حرة")
     }
-    else if(time>15.30&&time<18)
+    else if(time>17.30&&time<18)
     {
         obj=  AllPrograms.find(x => x.progName == "فصل من الكتاب")
     }
@@ -138,7 +138,7 @@ const wednesday = (time) =>
     }
     else if(time>19.30&&time<20)
     {
-        obj=  AllPrograms.find(x => x.progName == "كلام رائد مع الأب رائد")
+        obj=  AllPrograms.find(x => x.progName == "كلام رائد مع الاب رائد")
     }
     else if(time>20&&time<20.30)
     {
@@ -158,7 +158,7 @@ const wednesday = (time) =>
     }
     else if(time>22.30&&time<23.30)
     {
-        obj=  AllPrograms.find(x => x.progName == "ها انا ارسلكم ")
+        obj=  AllPrograms.find(x => x.progName == "ها انا ارسلكم")
     }
     else if(time>23.30&&time<24)
     {
@@ -170,6 +170,6 @@ const wednesday = (time) =>
     }
 
     document.getElementById("showName").innerHTML=obj.progName
-    document.getElementById("showImage").src=obj.progImg
+    document.getElementById("showImage").src= obj.progImg
 }
 export default wednesday;

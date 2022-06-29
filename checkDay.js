@@ -62,3 +62,5 @@ else if(day=="Saturday")
 {
     saturday(time)
 }
+
+export {day,time}
