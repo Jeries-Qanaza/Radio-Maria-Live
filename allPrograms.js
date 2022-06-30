@@ -38,7 +38,7 @@ const AllPrograms =
     {
       id:8,
       progName:"شخصية ورسائل",
-      progImg:"https://drive.google.com/file/d/1NwOOUUeX91PoFYxx5EuW_Uv5sUAQ3f0C/view"
+      progImg:"https://static.wixstatic.com/media/cbd749_e0a6400c9c564dcba51f3ee22a330185~mv2.jpeg"
     },
     {
       id:9,
@@ -53,7 +53,7 @@ const AllPrograms =
     {
       id:11,
       progName:"نقطة حب",
-      progImg:"https://drive.google.com/file/d/1nvdMY1lr7Fy00RhACK_V3PCkVK0-QlfC/view"
+      progImg:"https://static.wixstatic.com/media/cbd749_3e8dedc527f14583af65dfbb9fd7e71f~mv2.jpeg"
     },
     {
       id:12,
@@ -68,7 +68,7 @@ const AllPrograms =
     {
       id:14,
       progName:"تأملات روحية",
-      progImg:"https://drive.google.com/file/d/1OLmdNYWQyyHeHbS-uDN1MXPeFtDBubks/view"
+      progImg:"https://static.wixstatic.com/media/cbd749_6480f39d9f9b402fbbed4e45e0b65182~mv2.jpeg"
     },
     {
       id:15,
@@ -78,12 +78,12 @@ const AllPrograms =
     {
       id:16,
       progName:"خبرات المستمعين",
-      progImg:"https://drive.google.com/file/d/1aVtx6ZSSNUmb6jKkEm9QcfWN3PrgsCBw/view"
+      progImg:"https://static.wixstatic.com/media/cbd749_adf0161200ad4244a04863fbd480599c~mv2.jpeg"
     },
     {
       id:17,
       progName:"كنزنا اولادنا",
-      progImg:"https://drive.google.com/file/d/1LEPksK0DIK7KUEtNx5hr-U6AVLEfv1rh/view"
+      progImg:"https://static.wixstatic.com/media/cbd749_7daefbd4110d4ae4a0daa22e62064e9d~mv2.jpeg"
     },
     {
       id:18,
@@ -93,22 +93,22 @@ const AllPrograms =
     {
       id:19,
       progName:"قصة قصيرة",
-      progImg:"https://images.collegexpress.com/blog/what-bible-says-about-education.jpg"
+      progImg:""
     },
     {
       id:20,
       progName:"صوت الكنيسة انجيلوس",
-      progImg:"https://drive.google.com/file/d/1LpI_rwcMftJYEk3tGfN8ETU7T6aqymRU/view"
+      progImg:"https://static.wixstatic.com/media/cbd749_fcc1308509b34f3b8d664d91baef4002~mv2.jpeg"
     },
     {
       id:21,
       progName:"حلقات اختيارية حرة",
-      progImg:"https://www.knowing-jesus.com/wp-content/uploads/Do-Christians-Really-Need-The-Bible.jpg"
+      progImg:""
     },
     {
       id:22,
       progName:"فصل من الكتاب",
-      progImg:"https://images.collegexpress.com/blog/what-bible-says-about-education.jpg"
+      progImg:""
     },
     {
       id:23,
@@ -118,42 +118,42 @@ const AllPrograms =
     {
       id:24,
       progName:"صلاة المساء",
-      progImg:"https://images.collegexpress.com/blog/what-bible-says-about-education.jpg"
+      progImg:""
     },
     {
       id:25,
       progName:"تراث وتطلعات",
-      progImg:"https://drive.google.com/file/d/1bwcLCYOH8S-dzWEaEGSMlrIOZ61vzpci/view"
+      progImg:"https://static.wixstatic.com/media/cbd749_3b64416055054304a9bbd288af44748c~mv2.jpeg"
     },
     {
       id:26,
       progName:"صلاة قبل النوم",
-      progImg:"https://images.collegexpress.com/blog/what-bible-says-about-education.jpg"
+      progImg:"https://static.wixstatic.com/media/cbd749_3b64416055054304a9bbd288af44748c~mv2.jpeg"
     },
     {
       id:27,
       progName:"كلمة الرب نور لسبيلي",
-      progImg:"https://drive.google.com/drive/u/1/folders/1Ed89XftgMuVXE-JJULKQg-qZG26vyIZb"
+      progImg:"https://static.wixstatic.com/media/cbd749_af1e6b89576e41658b5ddb887ee35387~mv2.jpeg"
     },
     {
       id:28,
       progName:"منائر القديسين",
-      progImg:"https://drive.google.com/file/d/13wfFncXFECey_AIunt6dub3GICUcEO9Z/view"
+      progImg:"https://static.wixstatic.com/media/cbd749_92f201961d74452082b71af6017f2ed6~mv2.jpeg"
     },
     {
       id:29,
       progName:"مسيرة سنودسية",
-      progImg:"https://drive.google.com/file/d/1y19EYWxU1xrqHAT5E8iKPt8lew_ROX84/view"
+      progImg:"https://static.wixstatic.com/media/cbd749_6d3397a95454445fb187d2c20ad4017d~mv2.jpeg"
     },
     {
       id:30,
       progName:"كلمة الراعي",
-      progImg:"https://drive.google.com/file/d/10_gBaQtew0kP5z0eLsYXsp7BwViC2bbr/view"
+      progImg:"https://static.wixstatic.com/media/cbd749_a79df237507c49f88f09e25fe196cb7e~mv2.jpeg"
     },
     {
       id:31,
       progName:"ليتروجية بيزنطية",
-      progImg:"https://drive.google.com/file/d/1Nx9IA0flMEviXNJsHLgZw8Zn93Hx4q1o/view"
+      progImg:"https://static.wixstatic.com/media/cbd749_7bfbe09cc1c84673b8b2ac18a2a45b2b~mv2.jpeg"
     },
     {
       id:32,
@@ -163,22 +163,22 @@ const AllPrograms =
     {
       id:33,
       progName:"طلبات المستمعين",
-      progImg:"https://drive.google.com/file/d/1aVtx6ZSSNUmb6jKkEm9QcfWN3PrgsCBw/view"
+      progImg:"https://static.wixstatic.com/media/cbd749_adf0161200ad4244a04863fbd480599c~mv2.jpeg"
     },
     {
       id:34,
       progName:"تعبدات روحية",
-      progImg:"https://images.collegexpress.com/blog/what-bible-says-about-education.jpg"
+      progImg:""
     },
     {
       id:35,
       progName:"قراءات روحية",
-      progImg:"https://images.collegexpress.com/blog/what-bible-says-about-education.jpg"
+      progImg:""
     },
     {
       id:36,
       progName:"صوت الكنيسة اوديينسا",
-      progImg:"https://drive.google.com/file/d/1ezWfyUAHz8vOeecZLmoixWCvf4gjiUFN/view"
+      progImg:"https://static.wixstatic.com/media/cbd749_fad8b5be81394bd5b7a1deba389c73a1~mv2.jpeg"
     },
     {
       id:37,
@@ -188,7 +188,7 @@ const AllPrograms =
     {
       id:38,
       progName:"ها انا ارسلكم",
-      progImg:"https://drive.google.com/file/d/1Uq5TEqwqIccOKtbAizsJS301rnsnLnt-/view"
+      progImg:"https://static.wixstatic.com/media/cbd749_437c3ce9766a4272beff43672df6ad8b~mv2.jpeg"
     },
     {
       id:39,
@@ -198,17 +198,17 @@ const AllPrograms =
     {
       id:40,
       progName:"كلام رائد مع الاب رائد",
-      progImg:"https://drive.google.com/file/d/1S1Z6DIyTpmCv_-eaycc_LzOd9SQlzTxF/view"
+      progImg:"https://static.wixstatic.com/media/cbd749_21c22a9fbcc54ae882bdb82055f9050a~mv2.jpeg"
     },
     {
       id:41,
-      progName:"تعليم اباء روحيين",
-      progImg:"https://mycatholic.life/wp-content/uploads/2018/04/1280px-Francesco_Botticini_-_The_Assumption_of_the_Virgin.jpg"
+      progName:"تعليم اباء روحيين ",
+      progImg:""
     },
     {
       id:42,
       progName:"عائلاتنا الى اين",
-      progImg:"https://drive.google.com/file/d/1DbgSBQhmVAaRBDOGs29pMnbBa9s_oCpW/view"
+      progImg:"https://static.wixstatic.com/media/cbd749_c1927dd457914064a027674b74954ce5~mv2.jpeg"
     },
     {
       id:43,
@@ -218,7 +218,7 @@ const AllPrograms =
     {
       id:44,
       progName:"اسئلة المستمعين",
-      progImg:"https://drive.google.com/file/d/1aVtx6ZSSNUmb6jKkEm9QcfWN3PrgsCBw/view"
+      progImg:"https://static.wixstatic.com/media/cbd749_adf0161200ad4244a04863fbd480599c~mv2.jpeg"
     },
     {
       id:45,
@@ -228,28 +228,27 @@ const AllPrograms =
     {
       id:46,
       progName:"عظة الاب رائد",
-      progImg:"https://drive.google.com/file/d/1S1Z6DIyTpmCv_-eaycc_LzOd9SQlzTxF/view"
+      progImg:"https://static.wixstatic.com/media/cbd749_21c22a9fbcc54ae882bdb82055f9050a~mv2.jpeg"
     },
     {
       id:47,
       progName:"تعبدات متنوعة",
-      progImg:"https://images.collegexpress.com/blog/what-bible-says-about-education.jpg"
+      progImg:""
     },
     {
       id:48,
       progName:"اجوبة للمستمعين",
-      progImg:"https://drive.google.com/file/d/1aVtx6ZSSNUmb6jKkEm9QcfWN3PrgsCBw/view"
+      progImg:"https://static.wixstatic.com/media/cbd749_adf0161200ad4244a04863fbd480599c~mv2.jpeg"
     },
     {
       id:49,
       progName:"ليتروجية مارونية",  
-      progImg:"https://drive.google.com/drive/u/1/folders/1Ed89XftgMuVXE-JJULKQg-qZG26vyIZb"
+      progImg:"https://static.wixstatic.com/media/cbd749_4fc8b33c1be74b95a2b3241b9b854202~mv2.jpeg"
     },
     {
       id:50,
       progName:"اسرار الحزن",  
       progImg:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRss-OAuXMHkWWQDnXkYIcIFS3GOOKHjR3ba846llCazedF3VMScdE4Pn3htftRV6zj0P8&usqp=CAU"
     },
-
   ]
 export default  AllPrograms;
