@@ -128,7 +128,7 @@ const AllPrograms =
     {
       id:26,
       progName:"صلاة قبل النوم",
-      progImg:"https://static.wixstatic.com/media/cbd749_3b64416055054304a9bbd288af44748c~mv2.jpeg"
+      progImg:"https://static.wixstatic.com/media/cbd749_fcc1308509b34f3b8d664d91baef4002~mv2.jpeg"
     },
     {
       id:27,
