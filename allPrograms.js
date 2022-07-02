@@ -250,5 +250,10 @@ const AllPrograms =
       progName:"اسرار الحزن",  
       progImg:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRss-OAuXMHkWWQDnXkYIcIFS3GOOKHjR3ba846llCazedF3VMScdE4Pn3htftRV6zj0P8&usqp=CAU"
     },
+     {
+      id:51,
+      progName:"كلمة حياة",  
+      progImg:"https://static.wixstatic.com/media/cbd749_1fb37fdf54bf4536842aaf27c3a3cd6d~mv2.jpeg"
+    },
   ]
 export default  AllPrograms;
