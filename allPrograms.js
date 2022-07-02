@@ -93,7 +93,7 @@ const AllPrograms =
     {
       id:19,
       progName:"قصة قصيرة",
-      progImg:""
+      progImg:"https://static.wixstatic.com/media/cbd749_3dbe037527b7454a8a3356a3ebf37fed~mv2.jpg"
     },
     {
       id:20,
@@ -103,12 +103,12 @@ const AllPrograms =
     {
       id:21,
       progName:"حلقات اختيارية حرة",
-      progImg:""
+      progImg:"https://static.wixstatic.com/media/cbd749_3dbe037527b7454a8a3356a3ebf37fed~mv2.jpg"
     },
     {
       id:22,
       progName:"فصل من الكتاب",
-      progImg:""
+      progImg:"https://static.wixstatic.com/media/cbd749_3dbe037527b7454a8a3356a3ebf37fed~mv2.jpg"
     },
     {
       id:23,
@@ -118,7 +118,7 @@ const AllPrograms =
     {
       id:24,
       progName:"صلاة المساء",
-      progImg:""
+      progImg:"https://static.wixstatic.com/media/cbd749_3dbe037527b7454a8a3356a3ebf37fed~mv2.jpg"
     },
     {
       id:25,
@@ -168,12 +168,12 @@ const AllPrograms =
     {
       id:34,
       progName:"تعبدات روحية",
-      progImg:""
+      progImg:"https://static.wixstatic.com/media/cbd749_3dbe037527b7454a8a3356a3ebf37fed~mv2.jpg"
     },
     {
       id:35,
       progName:"قراءات روحية",
-      progImg:""
+      progImg:"https://static.wixstatic.com/media/cbd749_3dbe037527b7454a8a3356a3ebf37fed~mv2.jpg"
     },
     {
       id:36,
@@ -203,7 +203,7 @@ const AllPrograms =
     {
       id:41,
       progName:"تعليم اباء روحيين ",
-      progImg:""
+      progImg:"https://static.wixstatic.com/media/cbd749_3dbe037527b7454a8a3356a3ebf37fed~mv2.jpg"
     },
     {
       id:42,
@@ -233,7 +233,7 @@ const AllPrograms =
     {
       id:47,
       progName:"تعبدات متنوعة",
-      progImg:""
+      progImg:"https://static.wixstatic.com/media/cbd749_3dbe037527b7454a8a3356a3ebf37fed~mv2.jpg"
     },
     {
       id:48,
