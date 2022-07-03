@@ -47,7 +47,7 @@ const AllPrograms =
     },
     {
       id:10,
-      progName:"سنسكار اسبوعي",
+      progName:"سنكسار اسبوعي",
       progImg:"xKsJAx67j3idlrmEuW7aAM9rKi7AErA9IpF2a7Fd0wuOwdjo3IKOccxrz5aVYsbirlq64a1Fo281q4DOYsfhj8JURIPWq1heMOGhrwRjqMxHU9fQ"
     },
     {
