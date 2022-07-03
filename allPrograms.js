@@ -28,7 +28,7 @@ const AllPrograms =
     {
       id:6,
       progName:"مسبحة الرحمة",
-      progImg:"https://www.crushpixel.com/big-static18/preview4/crucifix-cross-wooden-rosary-beads-2944382.jpg"
+      progImg:"https://media.ascensionpress.com/wp-content/uploads/2019/10/anuja-mary-tilj-GreoBzJqQtw-unsplash-1024x536.jpg"
     },
     {
     id:7,
