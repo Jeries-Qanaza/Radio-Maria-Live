@@ -202,7 +202,7 @@ const AllPrograms =
     },
     {
       id:41,
-      progName:"تعليم اباء روحيين ",
+      progName:"تعليم اباء روحيين",
       progImg:"https://static.wixstatic.com/media/cbd749_3dbe037527b7454a8a3356a3ebf37fed~mv2.jpg"
     },
     {
